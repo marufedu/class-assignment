@@ -1,0 +1,440 @@
+/* font
+1 Roboto, sans-serif
+font-family (stack):
+Poppins */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+img{
+    max-width: 100%;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* common css */
+
+/* style header section */
+
+header {
+    background: #0c0f38;
+    padding: 40px 0;
+    
+}
+.header-left {
+    width: 50%;
+    text-align: left;
+}
+.header-left img{}
+
+nav{
+    width: 50%;
+}
+
+nav ul {
+    
+    margin-top: 9px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #fff;
+    padding: 0px 26px;
+    font-size: 19px;
+    transition: .5s;
+}
+
+nav ul li:nth-child(1) a{
+    color: #fdaf36;
+}
+
+nav ul li a:hover{
+    color: #fdaf36;
+}
+
+/* end header section */
+
+/* start  banner section */
+
+.banner{
+    background: #0c0f38;
+    padding-bottom: 50px;
+}
+
+.banner-left{
+    width: 30%;
+}
+
+.banner-content {}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 71px;
+    margin-top: 22px;
+    margin-bottom: 37px;
+    font-family: Roboto, sans-serif;
+}
+
+.banner-content h2 {
+    color: #fff;
+    font-size: 71px;
+    margin-top: 22px;
+    margin-bottom: 37px;
+    font-family: Roboto, sans-serif;
+}
+
+.banner-content h3 {
+    color: #fdd430;
+    font-size: 46px;
+    margin-bottom: 28px;
+    font-family: Roboto, sans-serif;
+}
+
+.banner-content article{
+    color: #fff;
+}
+
+.banner-content article p {
+    font-size: 18px;
+    margin-bottom: 44px;
+    font-family: Roboto, sans-serif;
+}
+
+.banner-content  a {
+    color: #000;
+    background: #fff;
+    display: inline-block;
+    padding: 14px 38px;
+    font-size: 20px;
+    transition: .6s;
+}
+
+.banner-content  a:hover{
+    background: #000;
+    color: #ffff;
+}
+
+.banner-right{
+    width: 70%;
+    text-align: center;
+
+}
+
+.banner-right img{}
+
+
+/* End  banner section */
+
+
+/* START HOSTING SECTION section */
+.hosting {
+    text-align: center;
+    background: #ffffff;
+    padding: 82px 0;
+}
+
+.hosting-tittle{}
+
+.hosting-tittle h2 {
+    font-size: 49px;
+    margin-top: 46px;
+    margin-bottom: 67px;
+    font-weight: 500;
+    /* font-family: Roboto, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.hosting-img{}
+
+.hosting-img img{}
+
+
+.hosting article {
+    width: 78%;
+    margin: auto;
+}
+
+.hosting article p {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 59px;
+    margin-bottom: 46px;
+}
+
+.hosting a {
+    background: #000;
+    color: #fff;
+    padding: 11px 37px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 45px;
+    font-family: 'Poppins', sans-serif;
+}
+/* END HOSTING SECTION section */
+
+
+
+/* START SERVICE SECTION section */
+.service{
+    background: #0c0f38;
+    padding: 40px 0;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+}
+
+.service-tittle {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+.service-tittle h2 {
+    font-size: 49px;
+}
+
+.service-tittle p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.service-item{
+    width: ;
+}
+.service-item .service-box-1:nth-child(3n+3){
+    margin-right: 0;
+}
+.service-item .service-box-1:nth-child(1n+1) {
+    margin-left: 3%;
+}
+.service-box-1 {
+    width: 26%;
+    border: 2px solid #fff;
+    padding: 35px 16px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 0%;
+    margin-top: 67px;
+    transition: .6s;
+}
+.service-box-1 .s-box-img {
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.service-box-1 .s-box-img img {
+    margin-top: 21px;
+    margin-left: 19px;
+}
+
+
+.service-box-1 .s-box-content {
+    text-align: center;
+}
+
+.service-box-1 .s-box-content h2 {
+    margin-top: 29px;
+}
+
+.service-box-1 .s-box-content p {
+    margin-top: 35px;
+    line-height: 29px;
+}
+
+.service-box-1:hover{
+
+    background: #6c09ca;
+}
+
+.button-service {
+    margin-top: 76px;
+    text-align: center;
+}
+
+
+.button-service a {
+    color: #000;
+    padding: 12px 45px;
+    background: #fff;
+    font-size: 17px;
+    margin-right: 87px;
+    transition: .5s;
+}
+
+.button-service a:hover{
+    background: #6c09ca;
+    color: #fff;
+
+}
+
+/* END SERVICE SECTION section */
+
+
+/* START ABOUT SECTION section */
+.about {
+    padding: 50px 0;
+    background: #ffffff;
+    /* font-family: Roboto, sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 302px;
+}
+
+.about-tittle {
+    text-align: center;
+    width: 87%;
+    margin: auto;
+}
+
+.about-tittle h2 {
+    font-size: 48px;
+}
+.about-tittle p {
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.about-item {
+    width: 28%;
+    text-align: center;
+    float: left;
+    margin-right: 3%;
+}
+.about-content {
+    margin-top: 14px;
+    box-shadow: 1px 0px 12px 0px #ddd;
+    border-radius: 20px;
+    transform: scale(1);
+    transition: .5s;
+    
+}
+.about-content img {
+    margin-top: 33px;
+}
+
+.about-content h2 {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    font-size: 23px;
+}
+
+.about-content p {
+    padding: 0px 38px;
+    line-height: 30px;
+}
+
+
+.about-button {
+  
+}
+.about-button a {
+    background: #000;
+    color: #ffff;
+    padding: 14px 43px;
+    display: inline-block;
+    margin-top: 26px;
+    transition: .3s;
+}
+
+.about-button a:hover{
+    background: #460879;
+   
+}
+
+.about-content:hover{
+
+    transform: scale(1.1);
+}
+
+
+/* End ABOUT SECTION section */
+
+
+
+/* START contact SECTION section */
+
+.contact{
+    background: #0c0f38;
+    padding-bottom: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.border-from{
+
+   
+}
+
+
+
+.main-form {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    top: -20%;
+    border-radius: 21px;
+    background: #0c0f38;
+    padding: 50px;
+    margin: auto;
+}
+.contact input {
+    width: 100%;
+    padding: 16px 11px;
+    font-size: 18px;
+    margin-bottom: 19px;
+    border-radius: 17px;
+}
+.contact .messege {
+    width: 100%;
+    font-size: 19px;
+    padding: 9px;
+    border-radius: 17px;
+}
+
+.contact .submit-data {
+    width: 20%;
+    margin-top: 22px;
+    font-size: 23px;
+    border-radius: 36px;
+}
+
+
+/* START contact SECTION section */
+
+
